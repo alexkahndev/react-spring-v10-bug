@@ -1,0 +1,26 @@
+{
+	"dependencies": {
+		"@absolutejs/absolute": "0.6.0",
+		"@elysiajs/static": "1.3.0",
+		"@react-spring/web": "10.0.1",
+		"react": "19.1.0",
+		"react-dom": "19.1.0",
+		"react-icons": "^5.5.0"
+	},
+	"devDependencies": {
+		"eslint": "9.27.0",
+		"prettier": "3.5.3",
+		"@types/react": "19.1.5",
+		"@types/react-dom": "19.1.5"
+	},
+	"name": "spring-bug",
+	"scripts": {
+		"dev": "bun run src/backend/server.ts",
+		"format": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,json,mjs,md}\"",
+		"lint": "eslint ./src",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"typecheck": "bun run tsc --noEmit"
+	},
+	"type": "module",
+	"version": "0.1.0"
+}
